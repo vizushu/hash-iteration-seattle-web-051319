@@ -11,4 +11,6 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_greetings)
-  birthday_greetings
+  birthday_greetings.each do |kids_age|
+    if kids_age <= 12
+      puts 
